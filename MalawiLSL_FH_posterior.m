@@ -27,7 +27,7 @@ mean_data = mean(data,2);
 % data(3,:) = data(3,:) / mean_data(3);
 % data(4,:) = data(4,:) / mean_data(4);
 
-F = 1:.5:40;
+F = 1:.5:30;
 wavenum = 10;
 
 [B1] = log(BOSC_tf(data(1,:),F,srate,wavenum));

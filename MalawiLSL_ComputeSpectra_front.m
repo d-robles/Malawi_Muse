@@ -11,7 +11,7 @@ srate = 256;
 %% subtract the mean
 
 %whole
-%data = rawdata(:,1:4)';
+data = rawdata(:,1:4)';
 
 %first half
 %data = rawdata(1:38400,1:4)';
